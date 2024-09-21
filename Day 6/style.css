@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0px 32px 0px;
+    align-items: center;
+}
+.menu_button {
+    display: none;
+}
+.logo_brand {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.logo_brand > p {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+    color: rgba(25, 24, 37, 1);    
+}
+.div_list {
+    display: flex;
+    gap: 64px;
+    justify-content: space-between;
+
+}
+.div_list > span:nth-child(1){
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(25, 24, 37, 1);
+}
+.div_list > span:nth-child(2) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(25, 24, 37, 0.5);
+}
+.div_list > span:nth-child(3) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(25, 24, 37, 0.5);
+}
+.div_list > span:nth-child(4) {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(25, 24, 37, 0.5);
+}
+.login_signup {
+    display: flex;
+}
+.login_signup > div:nth-child(1) {
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+}
+.login_signup > div:nth-child(2) {
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+    background-color: rgba(93, 80, 198, 1);
+}
+.login_signup > div:nth-child(1)  > p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(34, 40, 49, 1);
+}
+.login_signup > div:nth-child(2)  > p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(238, 238, 238, 1);
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.container_1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.get_started {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+
+}
+.get_started > div:nth-child(1) > button {
+    display: flex;
+    border-radius: 100px;
+    padding: 16px 32px 16px 32px;
+    gap: 16px;
+    align-items: center;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.get_started > div:nth-child(1) > button > p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(248, 94, 159, 1);
+}
+.get_started > div:nth-child(2) > span:nth-child(odd){
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 82.8px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+} 
+.get_started > div:nth-child(2) > span:nth-child(2){
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 82.8px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    color: rgba(248, 94, 159, 1); 
+}
+.get_started > div:nth-child(3) > span  {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: rgba(25, 24, 37, 0.5);
+} 
+.get_started > div:nth-child(4) {
+    display: flex;
+    gap: 16px;
+}
+.get_started > div:nth-child(4) > button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+} 
+.get_started > div:nth-child(4) > button:nth-child(1) {
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    background-color: rgba(93, 80, 198, 1);
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.get_started > div:nth-child(4) > button:nth-child(1) > p {
+    color: white;
+}
+.get_started > div:nth-child(4) > button:nth-child(2) {
+    padding: 16px 32px 16px 32px;
+    border-radius: 100px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.img_get_started {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.img_container {
+    display: flex;
+    gap: 31px;
+    align-items: center;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.img_container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.top_place_button {
+    display: flex;
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+    border: none;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.send_button {
+    height: 64px;
+    background-color: rgba(248, 94, 159, 1);
+    border: none;
+    border-radius: 50%;
+    padding: 16px;
+    align-items: center;
+    position: absolute;
+    top: 63%;
+    left: 6%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.add_user_button {
+    height: 64px;
+    background-color: rgba(255, 87, 34, 1);
+    border-radius: 50%;
+    padding: 16px;
+    border: none;
+    position: absolute;
+    top: 120%;
+    left: 60%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.div_list_container {
+    display: flex;
+    padding: 300px 5% 80px 5%;
+    justify-content: space-around; 
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 32px;
+        display: flex;
+        justify-content: space-around;
+        width: 772px;
+    }
+    .menu_button {
+        display: block;
+    }
+    .logo_brand {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+    .logo_brand > p {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: left;
+        color: rgba(25, 24, 37, 1);    
+    }
+    .div_list {
+        display: none;
+    }
+    .login_signup {
+        display: flex;
+    }
+    .login_signup > div:nth-child(1) {
+        padding: 16px 32px 16px 32px;
+        gap: 8px;
+        border-radius: 100px;
+    }
+    .login_signup > div:nth-child(2) {
+        padding: 16px 32px 16px 32px;
+        gap: 8px;
+        border-radius: 100px;
+        background-color: rgba(93, 80, 198, 1);
+    }
+    .login_signup > div:nth-child(1)  > p {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+        color: rgba(34, 40, 49, 1);
+    }
+    .login_signup > div:nth-child(2)  > p {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+        color: rgba(238, 238, 238, 1);
+    }
+    .container_1 {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 450px;
+        align-items: center;
+        justify-content: center;
+        padding: 64px 0px 64px 0px;
+    }
+    .get_started {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        position: relative;
+
+    }
+    .img_container {
+        top: 27%;
+        left: 13%;
+    }
+    .top_place_button {
+        top: 170%;
+        left: 77%;
+    }
+    .add_user_button {
+        top: 220%;
+        left: 65%;
+    }
+    .send_button {
+        top: 120%;
+        left: 9%;
+    }
+    .div_list_container {
+        padding-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        position: relative;
+    }
+    /* .div_list_container > img {
+        pa
+    } */
+}
+@media screen and (max-width: 576px) {
+    header {
+        /* padding: 32px 0px 32px 0px; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 200px;
+    }
+    .menu_button {
+        display: block;
+        position: relative;
+    }
+    .div_list {
+        display: none;
+    }
+    .logo_brand {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .logo_brand > p {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: left;
+        color: rgba(25, 24, 37, 1);    
+    }
+    .login_signup {
+        display: none;
+    }
+    main {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .get_started > div:nth-child(4) {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 90%;
+    }
+    .get_started > div:nth-child(4) > button {
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+    .get_started > div:nth-child(4) > button > p {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 16.8px;
+        text-align: left;
+        
+    }
+    .get_started {
+        left: 20%;
+    }
+    .img_get_started {
+        left: 20%;
+    }
+    .div_list_container {
+        left: 20%;
+    }
+}

@@ -1,0 +1,20 @@
+img {
+    border-radius: 50%;
+}
+.checked {
+    color: orange;
+}
+hr {
+    height: 3px;
+    background-color: orange;
+    border: none;
+}
+p {
+    font-size: 20px;
+}
+li {
+    font-size: 20px;
+}
+table {
+    font-size: 20px;
+}

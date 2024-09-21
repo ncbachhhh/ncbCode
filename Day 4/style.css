@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container {
+    position: relative;
+    width: 1528px;
+    height: 740px;
+    background-color: #ffffff;
+}
+.anh_to{
+    position: relative;
+    border-radius: 50%;
+    height: 330px;
+    left: 1150px;
+    top: 20px;
+}
+.anh_be{
+    position: absolute;
+    border-radius: 50%;
+    height: 230px;
+    left: 1230px;
+    top: 230px;
+}
+.div_list{
+    position: absolute;
+    width: 750px;
+    height: 120px;
+    background-color: rgba(236, 218, 196, 1);
+    top: 460px;
+    left: 390px;
+    border-radius: 55px;
+}
+.div_bottom_img{
+    position: absolute;
+    top: 520px;
+    width: 1528px;
+    height: 220px;
+    background: rgba(54, 48, 50, 1);
+}
+.div_background_layer{
+    position: absolute;
+    background-color: rgb(34, 29, 29);
+    opacity: 40%;
+    top: 0px;
+    left: 0px;
+    width: 1528px;
+    height: 740px;
+}
+.div_modal_container{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+    width: 300px;
+    left: 615px;
+    top: -100px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div_modal_img{
+    position: absolute;
+    background-color: rgba(229, 229, 229, 1);
+    width: 260px;
+    height: 100px;
+    top: 20px;
+    left: 20px;
+    border-radius: 5px;
+}
+.div_modal_text{
+    position: absolute;
+    top: 140px;
+    left:75px;
+    text-align: center;
+}
+.text_1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    color: rgba(84, 89, 94, 1);
+
+}
+.text_2 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(84, 89, 94, 0.6);  
+}
+/* .div_modal_x_button{
+    position: absolute;
+    background-color: rgba(229, 229, 229, 1);
+    width: 20px;
+    height: 20px;
+
+} */
+.button_close {
+    position: relative;
+    left: 283px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: rgba(229, 229, 229, 1);
+}
+.button_close:hover{
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.div_modal_input{
+    position: absolute;
+    top: 190px; 
+    left: 20px; 
+    height: 20px;
+    width: 260px;
+}
+.div_modal_input_text {
+    position: relative;
+    width: 260px;
+    height: 30px;
+    Border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.placeholder {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    background-color: white;
+    margin: 0;
+    padding: 0px;
+    color: rgba(172, 172, 172, 1)
+}
+.div_modal_input_text:focus ~ .placeholder,
+.div_modal_input_text:valid ~ .placeholder {
+  display: none;
+}
+
+.modal_button {
+    position: relative;
+    top: 5px;
+    width: 260px;
+    height: 30px;
+    background-color: rgba(79, 79, 79, 1);
+    border-radius: 4px;
+}
