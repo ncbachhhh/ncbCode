@@ -1,0 +1,311 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;   
+}
+main {
+    padding: 0px 3% 0px 3%;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.brand_name_div > p{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+}
+.header_list_div {
+    display: flex;
+    gap: 45px;
+}
+.header_list_div > p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+.profile_div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.profile_div > i {
+    display: none;
+}
+.profile_div > p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(114, 0, 184, 1);    
+}
+.left_side_div {
+    border-radius: 10px;
+    background-color: black;
+    padding-top: 50px ;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+.dashboard_section_div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.dashboard_section_div > button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dashboard_section_div > button:nth-child(1){
+    background-color: rgba(167, 23, 254, 1);
+}
+.dashboard_section_div > button > p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+.log_out_button > button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    border: none;
+    padding-left: 10px;
+}
+.log_out_button > button > p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.header_dashboard_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.header_dashboard_div > p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: black;    
+}
+.header_dashboard_div > button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(114, 0, 184, 1);
+    background-color: white;
+}
+.header_dashboard_div > button > p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+.header_dashboard_div > p > img{
+    display: none;
+}
+.list_1_container_div {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.list_1_container_div > div  {
+    padding: 30px 15px 30px 15px;
+    background-color: black;
+    border-radius: 10px;
+}
+.list_1_container_div > div > p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(223, 247, 247, 1);    
+}
+.more_info_container {
+    display: flex;
+    gap: 55px;
+}
+.container_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    justify-content: center;
+    align-items: center;
+}
+.container_1_top {
+    display: flex;
+    gap: 25px;
+}
+.container_1_top > div {
+    background-color: black;
+    width: 310px;
+    padding: 50px 10px 50px 10px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 50px;
+    box-shadow: 4px 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.container_1_top > div > p {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+    text-align: center;
+}
+.container_1_bottom {
+    background-color: black;
+    padding: 30px 50px 30px 50px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 5px rgba(0, 0, 0, 0.25);
+
+}
+.container_1_bottom > p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+.lasted_update_container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+}
+.lasted_update_container > div:nth-child(1){
+    padding: 30px 20px 90px 20px;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.header_update{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+.lasted_update_container > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.lasted_update_container > div > div > p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);    
+}
+.chat_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chat_container > p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(114, 0, 184, 0.5);    
+}
+@media screen and (max-width: 790px)  {
+    .header_list_div {
+        display: none;
+    }
+    .profile_div > i {
+        display: none;
+    }
+    .left_side_div {
+        display: none;
+    }
+    .header_dashboard_div > p {
+        display: flex;
+        align-items: center;
+    }
+    .header_dashboard_div > p > img {
+        display: block;
+    }
+    
+    .list_1_container_div > div > p {
+        text-align: center;
+    }
+    .lasted_update_container > div:nth-child(1){
+        display: none;
+    }
+    .lasted_update_container {
+        justify-content: end;
+    }
+}
+@media screen and (max-width: 640px){
+    .profile_div > i {
+        display: block;
+    }
+    .profile_div > img {
+        display: none;
+    }
+    .profile_div > p {
+        display: none;
+    }
+    .header_dashboard_div > button {
+        display: none;
+    }
+    .list_1_container_div {
+        flex-wrap: wrap;
+    }
+    .chat_container {
+        position: fixed;
+        top: 85%;
+        left: 83%;
+    }
+}

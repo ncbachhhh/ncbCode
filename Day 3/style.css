@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* heading */
+h2 {
+    margin-left: 270px;
+    font-size: 50px;
+}
+.logo_mindx{
+    height: 200px;
+    margin-left: 290px;
+    transform: translateY(30%);
+}
+/* content */
+.target_div_container{
+    margin-left: 200px;
+    font-size: 30px;
+}
+.contact_div_container{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.contact_div_container > h2 {
+    margin-left: -5px;
+}
+.contact_div_container > p {
+    font-size: 40px;
+}
+.contact_div_container > img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 450px;
+}
+.contact_div_info {
+    margin-left: -750px;
+}
+/* education */
+.education_div_container {
+    margin-left: 200px;
+    font-size: 30px;
+}
+/* experience */
+.experience_div_container {
+    margin-left: 200px;
+    font-size: 30px;
+}
+.border_table_experience {
+    border-top: 1px solid black;
+    border-left: 1px solid black ;
+}
+th {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: yellow;
+    color: rgb(12, 177, 177);
+    padding: 10px;
+}
+td {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding:10px
+}
+table {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+/* footer */
+footer {
+    margin-left: 200px;
+}
+footer > p {
+    display: inline-block;
+    font-size: 30px;
+}
+footer > img {
+    height: 80px;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
